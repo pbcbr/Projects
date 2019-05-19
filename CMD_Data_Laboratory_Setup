@@ -1,0 +1,13 @@
+Create a new Anaconda Environment for the analysis project, running the code below in cmd;
+          conda create --name cryptocurrency_analysis python=3
+To activate the environment run in cmd;
+          activate cryptocurerncy-analysis 
+To install the following required dependencies in your environment run in cmd;
+          conda install numpy pandas nb_conda jupyter plotly quandl
+To start a notebook run in cmd;
+          jupyter notebook
+The following link will open your notebookm in your browser of choice
+          http://localhost:8888/
+Using the Kernel that previously set up
+          Python [conda env:cryptocurrency-analysis]
+
