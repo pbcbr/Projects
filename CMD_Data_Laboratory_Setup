@@ -6,8 +6,19 @@ To install the following required dependencies in your environment run in cmd;
           conda install numpy pandas nb_conda jupyter plotly quandl
 To start a notebook run in cmd;
           jupyter notebook
-The following link will open your notebookm in your browser of choice
+The following link will open your jupyter interactive notebook in your browser of choice
           http://localhost:8888/
-Using the Kernel that previously set up
+Using the Kernel that was previously set up at
           Python [conda env:cryptocurrency-analysis]
-
+import your dependencies of choice in the first code cell
+          import os
+          import numpy as np
+          import pandas as pd
+          import pickle
+          import quandl
+          from datetime import datetime
+To enable offline access and use 
+          import plotly.offline as py
+          import plotly.graph_objs as go
+          import plotly.figure_factory as ff
+          py.init_notebook_mode(connected=True)
